@@ -13,6 +13,11 @@ int main()
 		{
 			cout<<"Ed"<<endl;
 		}
+		if(x%5==0 && x%3==0)
+		{
+			cout<<"Ed Pogi"<<endl;
+		}
+		else 
 		{
 			cout<<x<<endl;
 		}
