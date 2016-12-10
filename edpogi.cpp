@@ -13,7 +13,6 @@ int main()
 		{
 			cout<<"Ed"<<endl;
 		}
-		if(x%3==0 && x%5==0)
 		{
 			cout<<x<<endl;
 		}
