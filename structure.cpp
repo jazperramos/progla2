@@ -1,19 +1,16 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-
-struct Person
-{
+struct Person{
 	int toes;
 	int knees;
 	int shoulder;
 	int head;
+	
 };
-
-int main ()
+int main()
 {
 	Person person[5];
-	
 	for (int i=0 ; i<5 ; i++)
 	{
 	cin >> person[i].toes;
@@ -22,15 +19,12 @@ int main ()
 	cin >> person[i].head;
 	}
 	
-	
-	for (int i=0 ; i<5 ; i++)
-	{
-	cout << "Person number " << i+1 << endl;
+	for (int i=0 ; i<5 ; i++){
+	cout<<"Member: " << i+1<<endl;
 	cout << person[i].toes << endl;
 	cout << person[i].knees << endl;
 	cout << person[i].shoulder << endl;
 	cout << person[i].head << endl;
 	}
-	
 	return 0;
 }
