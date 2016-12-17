@@ -1,27 +1,25 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-struct Person
-{
+struct Person{
 	int toes;
 	int knees;
 	int shoulder;
 	int head;
 };
 
-int main ()
+int main()
 {
-	Person person;
+	Person p;
+	cin>> p.toes;
+	cin >>p.knees;
+	cin >> p.shoulder;
+	cin >> p.head;
+	cout<<p.toes<<endl;
+	cout<<p.knees<<endl;
+	cout<<p.shoulder<<endl;
+	cout<<p.head<<endl;
 	
-	cin >> person.toes;
-	cin >> person.knees;
-	cin >> person.shoulder;
-	cin >> person.head;
-	
-	cout << person.toes << endl;
-	cout << person.knees << endl;
-	cout << person.shoulder << endl;
-	cout << person.head << endl;	
 	
 	return 0;
 }
